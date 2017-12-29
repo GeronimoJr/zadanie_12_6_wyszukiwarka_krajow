@@ -1,0 +1,38 @@
+body {
+	background-color: rgb(169, 226, 252);
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+li {
+	display: flex;
+	margin-bottom: 30px;
+	background-color: rgb(246, 222, 247);
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+.flag {
+	height: 300px;
+	width: 200px;
+	flex: 1;
+}
+.description {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 20px;
+}
+p {
+	text-align: center;
+	font-size: 24px;
+}
+.name {
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+h2 {
+	margin-bottom: 30px;
+}
